@@ -8,6 +8,9 @@
 #include <stdlib.h>
 #include "diag/Trace.h"
 
+#include "stm32f4xx.h"
+#include "stm32f4xx_hal.h"
+
 // ----------------------------------------------------------------------------
 //
 // Semihosting STM32F4 empty sample (trace via DEBUG).
@@ -33,6 +36,7 @@ main(int argc, char* argv[])
 {
   // At this stage the system clock should have already been configured
   // at high speed.
+
 
 #define LOOP_COUNT (5)
   int loops = LOOP_COUNT;

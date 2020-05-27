@@ -69,6 +69,8 @@ __lock___atexit_recursive_mutex
 __lock___arc4random_mutex
                     0x1               /home/mastermatheus/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lock.o)
 errno               0x4               ./system/src/newlib/_syscalls.o
+gpio_led_init_struct
+                    0x14              ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
 uwTick              0x4               ./system/src/stm32f4-hal/stm32f4xx_hal.o
 pFlash              0x20              ./system/src/stm32f4-hal/stm32f4xx_hal_flash.o
 __lock___env_recursive_mutex
@@ -3386,6 +3388,216 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xef ./system/src/cmsis/vectors_stm32f407xx.o
  .debug_macro   0x0000000000000000       0x6a ./system/src/cmsis/vectors_stm32f407xx.o
  .debug_macro   0x0000000000000000      0x1df ./system/src/cmsis/vectors_stm32f407xx.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .group         0x0000000000000000        0xc ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .text          0x0000000000000000        0x0 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .data          0x0000000000000000        0x0 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .bss           0x0000000000000000        0x0 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .text.stm32f401_led_init
+                0x0000000000000000        0x2 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_info    0x0000000000000000      0x9e2 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_abbrev  0x0000000000000000      0x1ec ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_ranges  0x0000000000000000       0x10 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x529 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0xab4 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x31 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x28 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x22 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x8e ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x51 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0xef ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x6a ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x1df ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x35 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x50 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0xe66 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000     0x93f9 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x43 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x289 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000     0x347f ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x64 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x18 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x35 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x34 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x16 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x97 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x339 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0xfd ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x10 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x58 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x1f ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x43 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x20 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x18e ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x10 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x1c ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x52 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x40 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x10 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x40 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0xd7 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x1c ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x3d ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x16 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x16f ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x57 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x964 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x9e1 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x11e ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x13e ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x27 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x287 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x5f ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x23a ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x391 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x16f ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0xf9 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x36e ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x23 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0xe6 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0xa1 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x3c ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x1f ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x1cd ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0xcd6 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x13a ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x21e ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x2e ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x543 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x88 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0xd5 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x183 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x1a7 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0xa5 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x18b ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x24 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x35 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x79 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x11e ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x7f ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x89 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x7e ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x31a ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x409 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0xe4 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x48d ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x22b ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x202 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x6d9 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x5b ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x14d ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x287 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x225 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x1b5 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x2db ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x89 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x1df ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x115 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000       0x6e ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_macro   0x0000000000000000      0x125 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_line    0x0000000000000000      0xaf1 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_str     0x0000000000000000    0x97527 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .comment       0x0000000000000000       0x67 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .debug_frame   0x0000000000000000       0x20 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ .ARM.attributes
+                0x0000000000000000       0x2e ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
+ COMMON         0x0000000000000000       0x14 ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
  .group         0x0000000000000000        0xc ./src/_initialize_hardware.o
  .group         0x0000000000000000        0xc ./src/_initialize_hardware.o
  .group         0x0000000000000000        0xc ./src/_initialize_hardware.o
@@ -3632,6 +3844,72 @@ Discarded input sections
  .group         0x0000000000000000        0xc ./src/main.o
  .group         0x0000000000000000        0xc ./src/main.o
  .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
  .text          0x0000000000000000        0x0 ./src/main.o
  .data          0x0000000000000000        0x0 ./src/main.o
  .bss           0x0000000000000000        0x0 ./src/main.o
@@ -3671,6 +3949,72 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x29 ./src/main.o
  .debug_macro   0x0000000000000000       0x16 ./src/main.o
  .debug_macro   0x0000000000000000      0x51a ./src/main.o
+ .debug_macro   0x0000000000000000       0x31 ./src/main.o
+ .debug_macro   0x0000000000000000       0x28 ./src/main.o
+ .debug_macro   0x0000000000000000       0xef ./src/main.o
+ .debug_macro   0x0000000000000000      0x1df ./src/main.o
+ .debug_macro   0x0000000000000000       0x35 ./src/main.o
+ .debug_macro   0x0000000000000000       0x50 ./src/main.o
+ .debug_macro   0x0000000000000000      0xe66 ./src/main.o
+ .debug_macro   0x0000000000000000     0x93f9 ./src/main.o
+ .debug_macro   0x0000000000000000       0x43 ./src/main.o
+ .debug_macro   0x0000000000000000      0x289 ./src/main.o
+ .debug_macro   0x0000000000000000     0x347f ./src/main.o
+ .debug_macro   0x0000000000000000       0x57 ./src/main.o
+ .debug_macro   0x0000000000000000      0x964 ./src/main.o
+ .debug_macro   0x0000000000000000      0x9e1 ./src/main.o
+ .debug_macro   0x0000000000000000      0x11e ./src/main.o
+ .debug_macro   0x0000000000000000      0x13e ./src/main.o
+ .debug_macro   0x0000000000000000       0x27 ./src/main.o
+ .debug_macro   0x0000000000000000      0x287 ./src/main.o
+ .debug_macro   0x0000000000000000       0x5f ./src/main.o
+ .debug_macro   0x0000000000000000      0x23a ./src/main.o
+ .debug_macro   0x0000000000000000      0x391 ./src/main.o
+ .debug_macro   0x0000000000000000      0x16f ./src/main.o
+ .debug_macro   0x0000000000000000       0xf9 ./src/main.o
+ .debug_macro   0x0000000000000000      0x36e ./src/main.o
+ .debug_macro   0x0000000000000000       0x23 ./src/main.o
+ .debug_macro   0x0000000000000000       0xe6 ./src/main.o
+ .debug_macro   0x0000000000000000       0xa1 ./src/main.o
+ .debug_macro   0x0000000000000000       0x3c ./src/main.o
+ .debug_macro   0x0000000000000000       0x1f ./src/main.o
+ .debug_macro   0x0000000000000000      0x1cd ./src/main.o
+ .debug_macro   0x0000000000000000      0xcd6 ./src/main.o
+ .debug_macro   0x0000000000000000      0x13a ./src/main.o
+ .debug_macro   0x0000000000000000      0x21e ./src/main.o
+ .debug_macro   0x0000000000000000       0x2e ./src/main.o
+ .debug_macro   0x0000000000000000      0x543 ./src/main.o
+ .debug_macro   0x0000000000000000       0x88 ./src/main.o
+ .debug_macro   0x0000000000000000       0xd5 ./src/main.o
+ .debug_macro   0x0000000000000000      0x183 ./src/main.o
+ .debug_macro   0x0000000000000000      0x1a7 ./src/main.o
+ .debug_macro   0x0000000000000000       0xa5 ./src/main.o
+ .debug_macro   0x0000000000000000      0x18b ./src/main.o
+ .debug_macro   0x0000000000000000       0x24 ./src/main.o
+ .debug_macro   0x0000000000000000       0x35 ./src/main.o
+ .debug_macro   0x0000000000000000       0x79 ./src/main.o
+ .debug_macro   0x0000000000000000      0x11e ./src/main.o
+ .debug_macro   0x0000000000000000       0x7f ./src/main.o
+ .debug_macro   0x0000000000000000       0x89 ./src/main.o
+ .debug_macro   0x0000000000000000       0x7e ./src/main.o
+ .debug_macro   0x0000000000000000      0x31a ./src/main.o
+ .debug_macro   0x0000000000000000      0x409 ./src/main.o
+ .debug_macro   0x0000000000000000       0xe4 ./src/main.o
+ .debug_macro   0x0000000000000000      0x48d ./src/main.o
+ .debug_macro   0x0000000000000000      0x22b ./src/main.o
+ .debug_macro   0x0000000000000000      0x202 ./src/main.o
+ .debug_macro   0x0000000000000000      0x6d9 ./src/main.o
+ .debug_macro   0x0000000000000000       0x5b ./src/main.o
+ .debug_macro   0x0000000000000000      0x14d ./src/main.o
+ .debug_macro   0x0000000000000000      0x287 ./src/main.o
+ .debug_macro   0x0000000000000000      0x225 ./src/main.o
+ .debug_macro   0x0000000000000000      0x1b5 ./src/main.o
+ .debug_macro   0x0000000000000000      0x2db ./src/main.o
+ .debug_macro   0x0000000000000000       0x89 ./src/main.o
+ .debug_macro   0x0000000000000000      0x1df ./src/main.o
+ .debug_macro   0x0000000000000000      0x115 ./src/main.o
+ .debug_macro   0x0000000000000000       0x6e ./src/main.o
+ .debug_macro   0x0000000000000000      0x125 ./src/main.o
  .group         0x0000000000000000        0xc ./src/stm32f4xx_hal_msp.o
  .group         0x0000000000000000        0xc ./src/stm32f4xx_hal_msp.o
  .group         0x0000000000000000        0xc ./src/stm32f4xx_hal_msp.o
@@ -4099,6 +4443,7 @@ LOAD ./system/src/cortexm/_reset_hardware.o
 LOAD ./system/src/cortexm/exception_handlers.o
 LOAD ./system/src/cmsis/system_stm32f4xx.o
 LOAD ./system/src/cmsis/vectors_stm32f407xx.o
+LOAD ./src/OSDeviceDriver/STM32F401/stm32f401_led.o
 LOAD ./src/_initialize_hardware.o
 LOAD ./src/_write.o
 LOAD ./src/main.o
@@ -4800,7 +5145,7 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000     0xf5e1
+.debug_info     0x0000000000000000     0xf62f
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000     0x1200 ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_info    0x0000000000001200     0x1b61 ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
@@ -4817,10 +5162,10 @@ END GROUP
  .debug_info    0x000000000000c59a      0xdd1 ./system/src/cmsis/system_stm32f4xx.o
  .debug_info    0x000000000000d36b       0xce ./system/src/cmsis/vectors_stm32f407xx.o
  .debug_info    0x000000000000d439      0xdfa ./src/_initialize_hardware.o
- .debug_info    0x000000000000e233      0x9ff ./src/main.o
- .debug_info    0x000000000000ec32      0x9af ./src/stm32f4xx_hal_msp.o
+ .debug_info    0x000000000000e233      0xa4d ./src/main.o
+ .debug_info    0x000000000000ec80      0x9af ./src/stm32f4xx_hal_msp.o
 
-.debug_abbrev   0x0000000000000000     0x2e1b
+.debug_abbrev   0x0000000000000000     0x2e22
  *(.debug_abbrev)
  .debug_abbrev  0x0000000000000000      0x37b ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_abbrev  0x000000000000037b      0x470 ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
@@ -4837,10 +5182,10 @@ END GROUP
  .debug_abbrev  0x00000000000024b5      0x250 ./system/src/cmsis/system_stm32f4xx.o
  .debug_abbrev  0x0000000000002705       0xa5 ./system/src/cmsis/vectors_stm32f407xx.o
  .debug_abbrev  0x00000000000027aa      0x25d ./src/_initialize_hardware.o
- .debug_abbrev  0x0000000000002a07      0x23b ./src/main.o
- .debug_abbrev  0x0000000000002c42      0x1d9 ./src/stm32f4xx_hal_msp.o
+ .debug_abbrev  0x0000000000002a07      0x242 ./src/main.o
+ .debug_abbrev  0x0000000000002c49      0x1d9 ./src/stm32f4xx_hal_msp.o
 
-.debug_line     0x0000000000000000     0xad71
+.debug_line     0x0000000000000000     0xb4b5
  *(.debug_line)
  .debug_line    0x0000000000000000      0xd65 ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_line    0x0000000000000d65     0x1093 ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
@@ -4857,8 +5202,8 @@ END GROUP
  .debug_line    0x000000000000841b      0xbd5 ./system/src/cmsis/system_stm32f4xx.o
  .debug_line    0x0000000000008ff0      0x2d8 ./system/src/cmsis/vectors_stm32f407xx.o
  .debug_line    0x00000000000092c8      0xb73 ./src/_initialize_hardware.o
- .debug_line    0x0000000000009e3b      0x433 ./src/main.o
- .debug_line    0x000000000000a26e      0xb03 ./src/stm32f4xx_hal_msp.o
+ .debug_line    0x0000000000009e3b      0xb77 ./src/main.o
+ .debug_line    0x000000000000a9b2      0xb03 ./src/stm32f4xx_hal_msp.o
 
 .debug_frame    0x0000000000000000     0x125c
  *(.debug_frame)
@@ -4930,7 +5275,7 @@ END GROUP
  .debug_str     0x000000000009c284       0x31 ./src/_initialize_hardware.o
                                       0x97777 (size before relaxing)
  .debug_str     0x000000000009c2b5       0x28 ./src/main.o
-                                       0x85a4 (size before relaxing)
+                                      0x9857d (size before relaxing)
  .debug_str     0x000000000009c2dd       0x3d ./src/stm32f4xx_hal_msp.o
                                       0x974d0 (size before relaxing)
 
@@ -4985,7 +5330,7 @@ OUTPUT(arm_stm32_f401_discovery.elf elf32-littlearm)
  .debug_ranges  0x0000000000000528       0x10 ./src/main.o
  .debug_ranges  0x0000000000000538       0x28 ./src/stm32f4xx_hal_msp.o
 
-.debug_macro    0x0000000000000000    0x1bd6f
+.debug_macro    0x0000000000000000    0x1c0f2
  .debug_macro   0x0000000000000000      0x56d ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_macro   0x000000000000056d      0xab4 ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_macro   0x0000000000001021      0x289 ./system/src/stm32f4-hal/stm32f4xx_hal.o
@@ -5125,5 +5470,5 @@ OUTPUT(arm_stm32_f401_discovery.elf elf32-littlearm)
  .debug_macro   0x000000000001ab9e      0x525 ./system/src/cmsis/system_stm32f4xx.o
  .debug_macro   0x000000000001b0c3       0x73 ./system/src/cmsis/vectors_stm32f407xx.o
  .debug_macro   0x000000000001b136      0x51f ./src/_initialize_hardware.o
- .debug_macro   0x000000000001b655      0x1fb ./src/main.o
- .debug_macro   0x000000000001b850      0x51f ./src/stm32f4xx_hal_msp.o
+ .debug_macro   0x000000000001b655      0x57e ./src/main.o
+ .debug_macro   0x000000000001bbd3      0x51f ./src/stm32f4xx_hal_msp.o
