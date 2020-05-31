@@ -1,0 +1,34 @@
+• LD1 COM:
+LD1 default status is red. LD1 turns to green to indicate that communications are in
+progress between the PC and the ST-LINK/V2.
+• LD2 PWR:
+The red LED indicates that the board is powered.
+• User LD3:
+The orange LED is a user LED connected to the I/O PD13 of the STM32F401VCT6.
+• User LD4:
+The green LED is a user LED connected to the I/O PD12 of the STM32F401VCT6.
+• User LD5:
+The red LED is a user LED connected to the I/O PD14 of the STM32F401VCT6.
+• User LD6:
+The blue LED is a user LED connected to the I/O PD15 of the STM32F401VCT6.
+• USB LD7:
+The green LED indicates when VBUS is present on CN5 and is connected to PA9 of
+the STM32F401VCT6.
+• USB LD8:
+The red LED indicates an overcurrent from VBUS of CN5 and is connected to the I/O
+PD5 of the STM32F401VCT6.
+
+
+PD[15:0] -> GPIO PORT D
+
+Memory Map
+GPIO PORT D -> 0x4002 0C00 - 0x4002 0FFF 
+
+bit_word_addr = bit_band_base + (byte_offset x 32) + (bit_number × 4)
+where:
+– bit_word_addr is the address of the word in the alias memory region that maps to
+the targeted bit
+– bit_band_base is the starting address of the alias region
+– byte_offset is the number of the byte in the bit-band region that contains the
+targeted bit
+– bit_number is the bit position (0-7) of the targeted bit

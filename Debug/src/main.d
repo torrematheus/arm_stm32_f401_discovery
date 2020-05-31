@@ -1,4 +1,4 @@
-src/main.o: ../src/main.c ../system/include/diag/Trace.h \
+src/main.o: ../src/main.c ../include/stm32f401_led.h \
  ../system/include/cmsis/stm32f4xx.h \
  ../system/include/cmsis/stm32f407xx.h ../system/include/cmsis/core_cm4.h \
  ../system/include/cmsis/core_cmInstr.h \
@@ -70,9 +70,10 @@ src/main.o: ../src/main.c ../system/include/diag/Trace.h \
  ../system/include/stm32f4-hal/stm32f4xx_hal_fmpi2c.h \
  ../system/include/stm32f4-hal/stm32f4xx_hal_spdifrx.h \
  ../system/include/stm32f4-hal/stm32f4xx_hal_dfsdm.h \
- ../system/include/stm32f4-hal/stm32f4xx_hal_lptim.h
+ ../system/include/stm32f4-hal/stm32f4xx_hal_lptim.h \
+ ../system/include/diag/Trace.h
 
-../system/include/diag/Trace.h:
+../include/stm32f401_led.h:
 
 ../system/include/cmsis/stm32f4xx.h:
 
@@ -219,3 +220,5 @@ src/main.o: ../src/main.c ../system/include/diag/Trace.h \
 ../system/include/stm32f4-hal/stm32f4xx_hal_dfsdm.h:
 
 ../system/include/stm32f4-hal/stm32f4xx_hal_lptim.h:
+
+../system/include/diag/Trace.h:
