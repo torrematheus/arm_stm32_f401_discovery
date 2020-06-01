@@ -1,14 +1,37 @@
-/*
- * Matheus Torres Rocha
- */
+/**
+  **********************************************************************************************
+  * @file     main.c
+  * @project
+  * @platform
+  * @device   STM32f401
+  * @author   Matheus Torres Rocha
+  * @version  V1.0.0
+  * @date     26-May-2020
+  * @brief
+  *
+  * @history
+  *
+  * When         Who               What
+  * -----------  ----------------  -------------------------------------------------------------
+  * 26-May-2020  Matheus Torres     - Initial version.
+  * *************************************************************************************************
+  * @attention
+  *
+  * *************************************************************************************************
+  *
+  * *************************************************************************************************
+  * @bug
+  *
+  * *************************************************************************************************
+  */
 
 // ----------------------------------------------------------------------------
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <stm32f401_led.h>
 #include "diag/Trace.h"
 #include "stm32f401_led.h"
+#include "stm32f401_timer.h"
 
 // ----------------------------------------------------------------------------
 //
@@ -30,15 +53,13 @@
 #pragma GCC diagnostic ignored "-Wmissing-declarations"
 #pragma GCC diagnostic ignored "-Wreturn-type"
 
-#define GROUP_D_GPIO		3
-#define GPIO_RED			14
-
 int main(int argc, char* argv[])
 {
+
   // At this stage the system clock should have already been configured
   // at high speed.
-
-	stm32f401_led_init(GROUP_D_GPIO,GPIO_RED); //GPIO RED!
+	stm32f401_timer_init();
+	stm32f401_led_init_native(LED_RED);
 
 #define LOOP_COUNT (5)
   int loops = LOOP_COUNT;
@@ -52,11 +73,10 @@ int main(int argc, char* argv[])
   // Short loop.
   for (int i = 0; i < loops; i++)
     {
-	  stm32f401_led_set_status(GPIO_RED, true);
-
-	  stm32f401_led_set_status(GPIO_RED, false);
-
-	  stm32f401_led_set_status(GPIO_RED, true);
+	  stm32f401_led_set_status_native(LED_RED, true);
+	  stm32f401_timer_ms_delay(1000);
+	  stm32f401_led_set_status_native(LED_RED, false);
+	  stm32f401_timer_ms_delay(1000);
        // Add your code here.
     }
   return 0;

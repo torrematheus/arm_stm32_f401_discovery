@@ -43,10 +43,10 @@
 <booleanAttribute key="org.eclipse.cdt.dsf.gdb.UPDATE_THREADLIST_ON_SUSPEND" value="false"/>
 <intAttribute key="org.eclipse.cdt.launch.ATTR_BUILD_BEFORE_LAUNCH_ATTR" value="2"/>
 <stringAttribute key="org.eclipse.cdt.launch.COREFILE_PATH" value=""/>
-<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Release/arm_stm32_f401_discovery.elf"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="/home/mastermatheus/eclipse-workspace/arm_stm32_f401_discovery/Debug/arm_stm32_f401_discovery.elf"/>
 <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="arm_stm32_f401_discovery"/>
 <booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="true"/>
-<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.80688898"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.367064710"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <listEntry value="/arm_stm32_f401_discovery"/>
 </listAttribute>

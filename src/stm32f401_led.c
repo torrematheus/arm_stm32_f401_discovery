@@ -51,25 +51,12 @@
 /**************************************************************************************************
  * Preprocessor Macros and Defines
  **************************************************************************************************/
-#define REGISTER_BASE_RCC   		0x40023800U
-#define RCC_AHB1_ENABLE_OFF_SET		0x30U
-#define REGISTER_AHB1_GPIO  		(*((volatile uint32_t *)(REGISTER_BASE_RCC + RCC_AHB1_ENABLE_OFF_SET)))
 
-#define REGISTER_GPIOD_MORDER 		(*((volatile uint32_t *)0x40020C00))
-#define REGISTER_GPIOD_OTYPER 		(*((volatile uint32_t *)0x40020C04))
-#define REGISTER_GPIOD_OSPEEDR 		(*((volatile uint32_t *)0x40020C08))
-#define REGISTER_GPIOD_PUPDR 		(*((volatile uint32_t *)0x40020C0C))
-#define REGISTER_GPIOD_IDR 			(*((volatile uint32_t *)0x40020C10))
-#define REGISTER_GPIOD_ODR 			(*((volatile uint32_t *)0x40020C14))
-#define REGISTER_GPIOD_BSRR 		(*((volatile uint32_t *)0x40020C18))
-#define REGISTER_GPIOD_LCKR 		(*((volatile uint32_t *)0x40020C1C))
-#define REGISTER_GPIOD_AFRL 		(*((volatile uint32_t *)0x40020C20))
-#define REGISTER_GPIOD_AFRH 		(*((volatile uint32_t *)0x40020C24))
+#define BIT(N)       (1U<<(N))
 
 /**************************************************************************************************
  * Typedefs and Variable Definitions
  **************************************************************************************************/
-
 
 /**************************************************************************************************
  * Private Function Prototypes
@@ -78,30 +65,44 @@
 /**************************************************************************************************
  * Public Function Prototypes
  **************************************************************************************************/
-void stm32f401_led_init(uint8_t group_gpio, uint8_t gpio_pin);
-void stm32f401_led_set_status(uint8_t gpio_pin, bool value);
+void stm32f401_led_init_native(led_native_t led_pin_native);
+void stm32f401_led_set_status_native(led_native_t gpio_pin, bool value);
 
 /**************************************************************************************************
  * Public Function Definitions
  **************************************************************************************************/
-void stm32f401_led_init(uint8_t group_gpio, uint8_t gpio_pin)
+void stm32f401_led_init_native(led_native_t led_pin_native)
 {
-	REGISTER_AHB1_GPIO |= (0x00000001U << group_gpio);	//Enable Clock GPIOD
+	stm32f401_gpio_clock_config(AHB1ENR_GPIOD);
 
-	REGISTER_GPIOD_MORDER 	|= (0b01 << 2*gpio_pin); 	//General purpose output mode
-	REGISTER_GPIOD_OTYPER 	|= (0b00 << gpio_pin); 		//Output push-pull (reset state)
-	REGISTER_GPIOD_OSPEEDR  |= (0b10 << 2*gpio_pin); 	//High speed
-	REGISTER_GPIOD_PUPDR	|= (0b01 << 2*gpio_pin);	//Pull-up
+	GPIO_InitTypeDef GPIO_InitStructure;
 
+	switch(led_pin_native)
+	{
+		case LED_RED:
+			GPIO_InitStructure.Pin = BIT(LED_RED);
+			break;
+		case LED_ORANGE:
+			GPIO_InitStructure.Pin = BIT(LED_ORANGE);
+			break;
+		case LED_BLUE:
+			GPIO_InitStructure.Pin = BIT(LED_BLUE);
+			break;
+		case LED_GREEN:
+			GPIO_InitStructure.Pin = BIT(LED_GREEN);
+			break;
+	};
+
+	GPIO_InitStructure.Mode = GPIO_MODE_OUTPUT_PP;
+	GPIO_InitStructure.Speed = GPIO_SPEED_FAST;
+	GPIO_InitStructure.Pull = GPIO_PULLUP;
+
+	HAL_GPIO_Init(GPIOD, &GPIO_InitStructure);
 }
 
-void stm32f401_led_set_status(uint8_t gpio_pin, bool value)
+void stm32f401_led_set_status_native(led_native_t gpio_pin, bool value)
 {
-	REGISTER_GPIOD_ODR |= (value << gpio_pin);
-
-	REGISTER_GPIOD_ODR &= (value << gpio_pin);
-
-	REGISTER_GPIOD_ODR |= (value << gpio_pin);
+    HAL_GPIO_WritePin(GPIOD, BIT(gpio_pin), value);
 }
 
 /**************************************************************************************************

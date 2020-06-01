@@ -4,7 +4,7 @@ src/stm32f4xx_hal_msp.d: ../src/stm32f4xx_hal_msp.c \
  ../system/include/stm32f4-hal/stm32f4xx_hal_rcc.h \
  ../system/include/stm32f4-hal/stm32f4xx_hal_def.h \
  ../system/include/cmsis/stm32f4xx.h \
- ../system/include/cmsis/stm32f407xx.h ../system/include/cmsis/core_cm4.h \
+ ../system/include/cmsis/stm32f401xc.h ../system/include/cmsis/core_cm4.h \
  ../system/include/cmsis/core_cmInstr.h \
  ../system/include/cmsis/cmsis_gcc.h \
  ../system/include/cmsis/core_cmFunc.h \
@@ -24,15 +24,12 @@ src/stm32f4xx_hal_msp.d: ../src/stm32f4xx_hal_msp.c \
  ../system/include/stm32f4-hal/stm32f4xx_hal_cryp.h \
  ../system/include/stm32f4-hal/stm32f4xx_hal_dma2d.h \
  ../system/include/stm32f4-hal/stm32f4xx_hal_dac.h \
- ../system/include/stm32f4-hal/stm32f4xx_hal_dac_ex.h \
  ../system/include/stm32f4-hal/stm32f4xx_hal_dcmi.h \
- ../system/include/stm32f4-hal/stm32f4xx_hal_dcmi_ex.h \
  ../system/include/stm32f4-hal/stm32f4xx_hal_eth.h \
  ../system/include/stm32f4-hal/stm32f4xx_hal_flash.h \
  ../system/include/stm32f4-hal/stm32f4xx_hal_flash_ex.h \
  ../system/include/stm32f4-hal/stm32f4xx_hal_flash_ramfunc.h \
  ../system/include/stm32f4-hal/stm32f4xx_hal_sram.h \
- ../system/include/stm32f4-hal/stm32f4xx_ll_fsmc.h \
  ../system/include/stm32f4-hal/stm32f4xx_hal_nor.h \
  ../system/include/stm32f4-hal/stm32f4xx_hal_nand.h \
  ../system/include/stm32f4-hal/stm32f4xx_hal_pccard.h \
@@ -82,7 +79,7 @@ src/stm32f4xx_hal_msp.d: ../src/stm32f4xx_hal_msp.c \
 
 ../system/include/cmsis/stm32f4xx.h:
 
-../system/include/cmsis/stm32f407xx.h:
+../system/include/cmsis/stm32f401xc.h:
 
 ../system/include/cmsis/core_cm4.h:
 
@@ -124,11 +121,7 @@ src/stm32f4xx_hal_msp.d: ../src/stm32f4xx_hal_msp.c \
 
 ../system/include/stm32f4-hal/stm32f4xx_hal_dac.h:
 
-../system/include/stm32f4-hal/stm32f4xx_hal_dac_ex.h:
-
 ../system/include/stm32f4-hal/stm32f4xx_hal_dcmi.h:
-
-../system/include/stm32f4-hal/stm32f4xx_hal_dcmi_ex.h:
 
 ../system/include/stm32f4-hal/stm32f4xx_hal_eth.h:
 
@@ -139,8 +132,6 @@ src/stm32f4xx_hal_msp.d: ../src/stm32f4xx_hal_msp.c \
 ../system/include/stm32f4-hal/stm32f4xx_hal_flash_ramfunc.h:
 
 ../system/include/stm32f4-hal/stm32f4xx_hal_sram.h:
-
-../system/include/stm32f4-hal/stm32f4xx_ll_fsmc.h:
 
 ../system/include/stm32f4-hal/stm32f4xx_hal_nor.h:
 
